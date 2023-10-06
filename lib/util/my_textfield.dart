@@ -34,7 +34,7 @@ class MyTextField extends StatelessWidget {
       ),
       child: TextField(
         controller: controller,
-        maxLength: 19,
+        maxLength: 12,
         keyboardType: TextInputType.number,
         inputFormatters: <TextInputFormatter>[
           FilteringTextInputFormatter.digitsOnly,
